@@ -1,0 +1,62 @@
+@media print {
+	* {
+		background: white !important;
+		color: black !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+
+	body {
+		margin: 0;
+		padding: 20px;
+		line-height: 1.5;
+		font-size: 12pt;
+	}
+
+	a {
+		color: inherit;
+		text-decoration: underline;
+	}
+
+	/* Afficher URLs des liens */
+	a[href]:after {
+		content: " (" attr(href) ")";
+		font-size: 0.8em;
+		color: #666;
+	}
+
+	/* Éviter les sauts de page dans les sections */
+	section {
+		page-break-inside: avoid;
+	}
+
+	/* Éviter les sauts de page dans les articles */
+	article {
+		page-break-inside: avoid;
+	}
+
+	/* Navigation masquée à l'impression */
+	nav,
+	footer {
+		display: none;
+	}
+
+	/* Largeur maximale pour l'impression */
+	main {
+		max-width: 100%;
+	}
+
+	/* Marges pour en-têtes */
+	h1,
+	h2,
+	h3 {
+		page-break-after: avoid;
+		margin-top: 1em;
+	}
+
+	/* Espacement des images */
+	img {
+		max-width: 100%;
+		page-break-inside: avoid;
+	}
+}
