@@ -1,6 +1,7 @@
 export type Project = {
+	image: string;
 	title: string;
 	description: string;
 	stack: string[];
-  image: string;
-  repo: string;
+	repo: string;
+};

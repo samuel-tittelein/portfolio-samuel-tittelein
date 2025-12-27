@@ -29,14 +29,11 @@ export default function Home() {
 				<ContactSection />
 			</main>
 
-			<footer className="border-t border-slate-200 dark:border-slate-800 mt-16">
-				<div className="max-w-5xl mx-auto px-6 py-8">
-					<p className="text-sm text-slate-600 dark:text-slate-400 text-center">
-						Site statique généré avec Next.js. Mise en cache CDN, aucun tracking
-						tiers, images absentes pour limiter le poids des pages.
-					</p>
-				</div>
-			</footer>
+      <footer className="bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800">
+        <div className="max-w-5xl mx-auto px-6 py-6 text-center text-sm text-slate-600 dark:text-slate-400">
+          &copy; {new Date().getFullYear()} Samuel Tittelein. Tous droits réservés.
+        </div>
+      </footer>
 		</>
 	);
 }
