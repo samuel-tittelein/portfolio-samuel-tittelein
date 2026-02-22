@@ -18,7 +18,7 @@ export default function ProjectCard({ project }: Props) {
 					src={project.image}
 					alt={project.title}
 					fill
-					className="object-cover"
+					className="object-contain"
 				/>
 			</div>
 			<div className="p-6">

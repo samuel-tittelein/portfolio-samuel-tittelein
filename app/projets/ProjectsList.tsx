@@ -3,17 +3,9 @@ import type { Project } from "./Project";
 
 const projects: Project[] = [
 	{
-		title: "Recettes Gourmandes",
-		description:
-			"Site web pour partager mes recettes maison testées et approuvées. Toutes les recettes sont délicieuses, économiques et faciles à réaliser.",
-		stack: ["HTML", "CSS"],
-		image: "/recettes.png",
-		repo: "https://github.com/samuel-tittelein/recettes",
-	},
-	{
 		title: "Bomberman",
 		description:
-			"Recréation du jeu classique Bomberman en JavaFX réalisée dans le cadre de ma formation. Implémentation complète des mécaniques de jeu et de l'interface graphique.",
+			"Recréation du jeu classique Bomberman en JavaFX réalisée dans le cadre de ma formation. Implémentation des mécaniques de jeu.",
 		stack: ["Java", "JavaFX"],
 		image: "/bomberman.png",
 		repo: "https://github.com/samuel-tittelein/Bomberman",
@@ -21,10 +13,50 @@ const projects: Project[] = [
 	{
 		title: "Lens Judge",
 		description:
-			"Système de juge automatisé pour vérifier des programmes dans une compétition de programmation. Projet axé sur l'application des patrons de conception.",
+			"Système de juge automatisé pour vérifier des programmes dans une compétition de programmation. Projet axé sur l'application des patrons de conception. (SAÉ)",
 		stack: ["Java"],
 		image: "/lens_judge.png",
 		repo: "https://github.com/samuel-tittelein/Lens-Judge",
+	},
+	{
+		title: "Super sweet click party bonaza 2000",
+		description:
+			"Jeu vidéo réalisé en 30 heures dans le cadre de la Code Game Jam 2026, sur le thème \"Fête des clics\".",
+		stack: ["lua", "Löve2D"],
+		image: "/jam.png",
+		repo: "https://github.com/samuel-tittelein/Super-sweet-click-party-bonaza-2000",
+	},
+	{
+		title: "Bénévalibre",
+		description:
+			"Contribution à un logiciel libre qui facilite la gestion et la valorisation du bénévolat dans les associations. J'ai écrit les tests en lien avec les pages d'administration",
+		stack: ["Python", "Django"],
+		image: "/benevalibre.png",
+		repo: "https://forge.cliss21.org/cliss21/benevalibre",
+	},
+	{
+		title: "Recettes Gourmandes",
+		description:
+			"Site web pour partager mes recettes maison testées et approuvées. Toutes les recettes sont délicieuses, économiques et faciles à réaliser.",
+		stack: ["HTML", "CSS", "Js"],
+		image: "/recettes.png",
+		repo: "https://github.com/samuel-tittelein/recettes",
+	},
+	{
+		title: "Portfolio",
+		description:
+			"Création de ce site pour présenter mes projets. Je cherche à avoir l'impact écologique le moins important possible avec ce site.",
+		stack: ["Typescript", "NextJs"],
+		image: "/favicon.svg",
+		repo: "https://github.com/samuel-tittelein/portfolio-samuel-tittelein",
+	},
+	{
+		title: "Détour",
+		description:
+			"Site de voyage réalisé dans le cadre du Marathon du Web 2024, en collaboration avec le département Multimédia.",
+		stack: ["PHP", "Laravel"],
+		image: "/detour.png",
+		repo: "https://github.com/samuel-tittelein/detour",
 	},
 ];
 
@@ -36,7 +68,7 @@ export default function ProjectsList() {
 					Projets
 				</h2>
 				<p className="text-slate-600 dark:text-slate-400">
-					Réalisations académiques et professionnelles.
+					Réalisations académiques et personnelles.
 				</p>
 			</div>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

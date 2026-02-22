@@ -7,6 +7,7 @@ const interets: string[] = [
   "Jeux vidéo",
   "Écologie",
   "Programmation compétitive",
+  "Jeux de société",
 ];
 
 export default function InteretsList() {
@@ -17,14 +18,16 @@ export default function InteretsList() {
           Centres d'intérêts
         </h2>
       </div>
-      <p>
-        {interets.map((interest) => (
-          <span key={interest}>
-            {interest}
-            {interets.indexOf(interest) < interets.length - 1 && " · "}
-          </span>
-        ))}
-      </p>
+      <div className="flex flex-row gap-8">
+        <img src="/centres_interets.png" alt="centres d'intérêt" />
+        <ul>
+          {interets.map((interest) => (
+            <li key={interest}>
+              {interest}
+            </li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 }

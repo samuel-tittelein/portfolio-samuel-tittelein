@@ -19,6 +19,10 @@ export const metadata: Metadata = {
 		index: true,
 		follow: true,
 	},
+	icons: {
+		icon: [{ url: "/favicon.svg?v=2", type: "image/svg+xml" }],
+		shortcut: [{ url: "/favicon.svg?v=2", type: "image/svg+xml" }],
+	},
 };
 
 export default function RootLayout({

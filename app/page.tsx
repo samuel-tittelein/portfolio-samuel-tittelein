@@ -21,10 +21,10 @@ export default function Home() {
 			<Header />
 
 			<main id="contenu" className="max-w-5xl mx-auto px-6 py-12 space-y-16">
+				<ProjectsList />
 				<Competences />
 				<FormationsList />
 				<ExperiencesList />
-				<ProjectsList />
 				<InteretsList />
 				<ContactSection />
 			</main>
