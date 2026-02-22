@@ -7,7 +7,7 @@ const projects: Project[] = [
 		description:
 			"Jeu vidéo réalisé en 30 heures dans le cadre de la Code Game Jam 2026, sur le thème \"Fête des clics\".",
 		stack: ["lua", "Löve2D"],
-		image: "/jam.png",
+		image: "/jam.webp",
 		repo: "https://github.com/samuel-tittelein/Super-sweet-click-party-bonaza-2000",
 	},
 	{
@@ -15,7 +15,7 @@ const projects: Project[] = [
 		description:
 			"Contribution à un logiciel libre : un CRM pour Fibois. J'ai développé une fonctionalité pour synchroniser les données de l'application avec une base de données externe, en utilisant une API REST.",
 		stack: ["Python", "Django"],
-		image: "/creme_center_fibois.png",
+		image: "/creme_center_fibois.webp",
 		repo: "https://forge.cliss21.org/cliss21/creme_center_fibois",
 	},
 	{
@@ -39,7 +39,7 @@ const projects: Project[] = [
 		description:
 			"Site de voyage réalisé dans le cadre du Marathon du Web 2024, en collaboration avec le département Multimédia.",
 		stack: ["PHP", "Laravel"],
-		image: "/detour.png",
+		image: "/detour.webp",
 		repo: "https://github.com/samuel-tittelein/detour",
 	},
 	{
@@ -55,7 +55,7 @@ const projects: Project[] = [
 		description:
 			"Système de juge automatisé pour vérifier des programmes dans une compétition de programmation. Projet axé sur l'application des patrons de conception. (SAÉ)",
 		stack: ["Java"],
-		image: "/lens_judge.png",
+		image: "/lens_judge.webp",
 		repo: "https://github.com/samuel-tittelein/Lens-Judge",
 	},
 	{
@@ -63,7 +63,7 @@ const projects: Project[] = [
 		description:
 			"Contribution à un logiciel libre qui facilite la gestion et la valorisation du bénévolat dans les associations. J'ai écrit les tests en lien avec les pages d'administration",
 		stack: ["Python", "Django"],
-		image: "/benevalibre.png",
+		image: "/benevalibre.webp",
 		repo: "https://forge.cliss21.org/cliss21/benevalibre",
 	},
 	

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const interets: string[] = [
   "Scoutisme",
   "Cirque",
@@ -18,8 +20,14 @@ export default function InteretsList() {
           Centres d'intérêts
         </h2>
       </div>
-      <div className="flex flex-row gap-8">
-        <img src="/centres_interets.png" alt="centres d'intérêt" />
+      <div className="flex flex-row gap-8 items-start">
+        <Image
+          src="/centres_interets.webp"
+          alt="centres d'intérêt"
+          width={480}
+          height={320}
+          className="w-full max-w-sm h-auto rounded-lg"
+        />
         <ul>
           {interets.map((interest) => (
             <li key={interest}>
